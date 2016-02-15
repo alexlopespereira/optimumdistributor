@@ -1,0 +1,39 @@
+# This file contains metadata for your plugin. Since 
+# version 2.0 of QGIS this is the proper way to supply 
+# information about a plugin. The old method of 
+# embedding metadata in __init__.py will 
+# is no longer supported since version 2.0.
+
+# This file should be included when you package your plugin.# Mandatory items:
+
+[general]
+name=Optimum Distributor
+qgisMinimumVersion=2.0
+description=Assign a feature to another one based on the largest spatial intersection
+version=0.1
+author=Alex Lopes Pereira
+email=alexlopespereira@gmail.com
+
+about=This plugin helps the user to associate the features from a given layer to the features of another layer. The association metric is the largest intersection area.
+
+tracker=C:\Users\alex.pereira\.qgis2\python\plugins
+repository=C:\Users\alex.pereira\.qgis2\python\plugins
+# End of mandatory metadata
+
+# Recommended items:
+
+# Uncomment the following line and add your changelog:
+# changelog=
+
+# Tags are comma separated with spaces allowed
+tags=
+
+homepage=
+category=Plugins
+icon=icon.png
+# experimental flag
+experimental=True
+
+# deprecated flag (applies to the whole plugin, not just a single version)
+deprecated=False
+
